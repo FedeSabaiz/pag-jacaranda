@@ -75,7 +75,7 @@ function App() {
 							<img src={img4} alt="pendiente" className='people'/>
 							Población de México
 							<div>
-								<a href="#top">Demo</a>
+								<a href="https://pure-ocean-82749.herokuapp.com/">Demo</a>
 								<span>-</span>
 								<a href="https://github.com/FedeSabaiz/graficod3PobMex">Code</a>
 							</div>
