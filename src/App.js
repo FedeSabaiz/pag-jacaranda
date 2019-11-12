@@ -12,6 +12,7 @@ import linkedin from './img/linkedin.png';
 import img1 from './img/pagper.png';
 import img2 from './img/crypto.png';
 import img3 from './img/ontech.png';
+import img4 from './img/d3.png'
 import './App.css';
 
 function App() {
@@ -71,12 +72,12 @@ function App() {
 					<h1>Portafolio</h1>
 					<div className='row'>
 						<div className='col' >
-							<img src={img3} alt="pendiente" className='people'/>
+							<img src={img4} alt="pendiente" className='people'/>
 							Población de México
 							<div>
 								<a href="#top">Demo</a>
 								<span>-</span>
-								<a href="#top">Code</a>
+								<a href="https://github.com/FedeSabaiz/graficod3PobMex">Code</a>
 							</div>
 						</div>
 						<div className='col' >
@@ -85,7 +86,7 @@ function App() {
 							<div>
 								<a href="https://cryptomonedas.herokuapp.com/">Demo</a>
 								<span>-</span>
-								<a href="#top">Code</a>
+								<a href="https://github.com/FedeSabaiz/crypto">Code</a>
 							</div>
 						</div>
 						<div className='col' >
@@ -103,7 +104,7 @@ function App() {
 							<div>
 								<a href="https://fede-gomez.herokuapp.com/">Demo</a>
 								<span>-</span>
-								<a href="#top">Code</a>
+								<a href="https://github.com/FedeSabaiz/pagpersonal">Code</a>
 							</div>
 						</div>
 					</div>
@@ -117,8 +118,8 @@ function App() {
 									Redes Sociales
 								</p>
 								<div>
-									<img src={github} alt="github" className='social' />
-									<img src={linkedin} alt="github" className='social' />
+									 <a href="https://github.com/FedeSabaiz"> <img src={github} alt="github" className='social' /> </a>
+									<a href="https://www.linkedin.com/in/federico-g%C3%B3mez-80bb05191/"><img src={linkedin} alt="github" className='social' /></a>
 								</div>
 							</div>
 						</footer>
