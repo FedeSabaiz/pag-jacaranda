@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import logo from './img/jacaranda1.svg';
+import logo from './img/Asset 2.png';
 import flor from './img/flor.svg';
 import flor1 from './img/flor.svg';
 import flor2 from './img/flor.svg';
