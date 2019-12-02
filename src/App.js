@@ -6,7 +6,6 @@ import flor2 from './img/flor.svg';
 import flor3 from './img/flor.svg';
 import flor4 from './img/flor.svg';
 import flor5 from './img/flor.svg';
-import flor6 from './img/flor.svg';
 import github from './img/github.png';
 import linkedin from './img/linkedin.png';
 import img1 from './img/pagper.png';
@@ -33,10 +32,6 @@ function App() {
 		<img src={flor3} alt="flor" className='flor'/>
 		<img src={flor4} alt="flor" className='flor'/>
 		<img src={flor5} alt="flor" className='flor'/>
-		{/* <img src={flor6} alt="flor" className='flor'/> */}
-        <h1>
-			Desarrollo Web
-        </h1>        
       	</header>
 
 		<div className='parallax'>
@@ -44,30 +39,16 @@ function App() {
 				<div className='home' ></div>
 
 				<div className='inicio' >
-					<h1>Mi nombre es Federico Gómez</h1>
+					<h1>Federico Gómez</h1>
+					<h1>
+						Desarrollador Web
+					</h1> 
 					<p>
 						Soy una persona autodidacta que se especializa en los lenguajes de programación Javascript, para el lado del cliente, y python para el lado de servidor. Cuento con experiencia y conocimientos en diferentes disciplinas que me permiten tener una amplia perspectiva de los problemas y proponer soluciones.
 					</p>
 					<p>Entre los temas que más me interesan se encuentran el desarrollo de aplicaciones web y mobile, así como la tecnología blockchain, desarrollo de video juegos.</p>
 				</div>
-			<section>
-				<div className='firstSec'>
-					<div>
-						<h3>Stack</h3>
-					</div>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Javascript</li>
-						<li>Illustrator</li>
-						<li>React</li>
-						<li>Mysql</li>
-						<li>REST API</li>
-					</ul>
-				</div>
-			</section>
-			<section className='transparente' ></section>
-			<section>
+				<section>
 				<div className='stack'>
 					<h1>Portafolio</h1>
 					<div className='row'>
@@ -110,19 +91,38 @@ function App() {
 					</div>
 				</div>
 			</section>
+			<section className='transparente' ></section>
+
+			<section>
+				<div className='firstSec'>
+					<div>
+						<h3>Stack</h3>
+					</div>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Illustrator</li>
+						<li>React</li>
+						<li>Mysql</li>
+						<li>REST API</li>
+					</ul>
+				</div>
+			</section>
+			
 			<section className='final' >
 				
 				<footer>
-							<div className='network'>
-								<p>
-									Redes Sociales
-								</p>
-								<div>
-									 <a href="https://github.com/FedeSabaiz"> <img src={github} alt="github" className='social' /> </a>
-									<a href="https://www.linkedin.com/in/federico-g%C3%B3mez-80bb05191/"><img src={linkedin} alt="github" className='social' /></a>
-								</div>
-							</div>
-						</footer>
+					<div className='network'>
+						<p>
+							Redes Sociales
+						</p>
+						<div>
+								<a href="https://github.com/FedeSabaiz"> <img src={github} alt="github" className='social' /> </a>
+							<a href="https://www.linkedin.com/in/federico-g%C3%B3mez-80bb05191/"><img src={linkedin} alt="github" className='social' /></a>
+						</div>
+					</div>
+				</footer>
 				
 			</section>
 		</div>
