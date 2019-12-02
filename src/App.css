@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  	background-color: #282c34;
+  	background-color: #000000;
 	height: 100%;
 	width: 100%;
 	color: white;
@@ -46,7 +46,7 @@
 }
 
 .firstSec {
-	background: rgb(8, 8, 8);
+	background: rgb(109, 79, 138);
 	font-size: 1rem;
 	height: 1000px;
 	display: flex;
@@ -56,7 +56,7 @@
 
 .stack {
 	color: white;
-	background: black;
+	background:rgb(109, 79, 138);
 	width: 100%;
 	height: 100%;
 	font-size: 1rem;
@@ -110,6 +110,10 @@ li{
 
   footer {
 	  height: 100%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: end;
+	  
   }
 
   .flor:nth-child(1) {
@@ -177,11 +181,12 @@ li{
 }
 
   .network {
-	  height: 100%;
+	  width: 100%;
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: end;
 	  align-items: center;
+	  background: rgb(109, 79, 138);
   }
 
   .network > p {
